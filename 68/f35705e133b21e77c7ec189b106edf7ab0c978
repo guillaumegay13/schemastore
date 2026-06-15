@@ -1,0 +1,26 @@
+src/test/modelparams/modelparams.yaml
+  s_5cd676849ae501::t_f25813a5c10cc8 2-25
+  s_5cd676849ae501::t_c7975e26d296fe 1
+src/negative_test/modelparams/missing-auth-type.yaml
+  s_5cd676849ae501::t_c7975e26d296fe 1
+  s_5cd676849ae501::t_f25813a5c10cc8 2-9
+src/api/json/catalog.json
+  s_5cd676849ae501::t_f25813a5c10cc8 4849,4851-4853
+  s_5cd676849ae501::t_a67571106e6b4a 4850
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "68f35705e133b21e77c7ec189b106edf7ab0c978",
+  "prompts": {},
+  "sessions": {
+    "s_5cd676849ae501": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ecb12-81b9-7f70-87d7-7e4b91204575",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Guillaume Gay <guillaume.gay@protonmail.com>"
+    }
+  }
+}
